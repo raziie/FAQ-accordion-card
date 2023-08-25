@@ -1,0 +1,146 @@
+body {
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+h1 {
+    color: hsl(238, 29%, 16%);
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 40px 0px hsl(240, 6%, 50%);
+}
+
+.question {
+    color: hsl(237, 12%, 33%);
+}
+
+.hover {
+    color: hsl(14, 88%, 65%);
+}
+
+.clicked {
+    color: hsl(238, 29%, 16%);
+    font-weight: bold;
+}
+
+.flip {
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+}
+
+.answer {
+    display: none;
+    color: hsl(240, 6%, 50%);
+    font-size: 15px;
+    width: 350px;
+}
+
+.images {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.pattern {
+    position: absolute;
+    top: -320px;
+    left: -550px;
+}
+
+.illustration-woman {
+    position: absolute;
+    top: 50px;
+    left: -50px;
+}
+
+.illustration-box {
+    position: absolute;
+    top: 170px;
+    left: -90px;
+}
+
+.info {
+    width: 500px;
+    margin: 50px;
+    margin-left: 80px;
+    margin-right: 0px;
+    position: relative;
+}
+
+.divider {
+    border-top: 1px solid hsl(240, 5%, 91%);
+    margin-right: 100px;
+}
+
+.arrow {
+    position: absolute;
+    left: 350px;
+    padding-top: 10px;
+}
+
+@media (max-width: 600px) {
+    body {
+        height: 120vh;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 200px;
+        padding-left: 40px;
+        padding-bottom: 50px;
+    }
+    
+    .images {
+        max-width: 300px;
+        width: 300px;
+        height: 150px;
+        overflow: visible;
+    }
+
+    .info {
+        margin: 0px;
+        width: 400px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .divider {
+        margin-right: 50px;
+    }
+
+    .arrow {
+        left: 340px;
+    }
+
+    .illustration-box {
+        display: none;
+    }
+
+    .illustration-woman {
+        top: -160px;
+    }
+
+    .pattern {
+        width: 350px;
+        top: -10px;
+        left: -50px;
+    }
+}
