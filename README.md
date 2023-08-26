@@ -24,9 +24,9 @@ Users should be able to:
 
 ### Screenshot
 
-![desktop design](design\desktop-design.jpg)
-![active states](design\active-states.jpg)
-![mobile design](design\mobile-design.jpg)
+![desktop design](./design/desktop-design.jpg)
+![active states](./design/active-states.jpg)
+![mobile design](./design/mobile-design.jpg)
 
 ## My process
 
@@ -41,11 +41,11 @@ Users should be able to:
 
 ### What I learned
 
-how to have different svgs for different screen sizes.
-how to have images one on top of another.
-how to hide images in some parts.
-how to flip an image.
-how to position images.
+- how to have different svgs for different screen sizes.
+- how to have images one on top of another.
+- how to hide images in some parts.
+- how to flip an image.
+- how to position images.
 
 ```html
 <div class="images">
